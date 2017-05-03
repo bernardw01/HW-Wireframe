@@ -1,0 +1,95 @@
+/* 
+    Author: Bernard Williams
+    Date:   5-2-17;
+    UCF Coding Boot Camp
+    Assignment: Week one HW-Wireframe
+*/
+
+body {
+    background: #777;
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background: lightgray;
+    margin-bottom: 20px;
+    color: black;
+    padding-top: 15;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    background: lightgray;
+    margin-bottom: 20px;
+    padding-top: 15;
+}
+
+section {
+    overflow: auto;
+    width: 495px;
+    float: left;
+    background: lightgray;
+    margin-bottom: 20px;
+    padding-top: 15;
+}
+
+aside {
+    overflow: auto;
+    width: 400;
+    margin-left: 50px;
+    float: right;
+    height: 275px;
+    background: lightgray;
+    margin-bottom: 20px;
+    padding-top: 15;
+}
+
+article {
+    overflow: auto;
+    width: auto;
+    background: #777;
+    color: white;
+    margin: 15px;
+    padding-top: 15;
+}
+
+.clear {}
+
+h1 {
+    height: 50px;
+    width: auto;
+    background: lightgray;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    padding-top: 15;
+}
+
+p {
+    height: 50px;
+    width: auto;
+    background: lightgray;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    padding-top: 15;
+}
+
+footer {
+    clear: both;
+    height: 100px;
+    width: 100%;
+    background: lightgray;
+    margin-top: 20px;
+    padding-top: 15;
+}
